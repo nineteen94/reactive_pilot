@@ -7,6 +7,6 @@ import javax.annotation.processing.Generated
 
 @Table("members")
 data class Member (
-    @Id var id: String? = null,
+    var id: String? = null,
     val firstname: String,
     val lastname: String )
